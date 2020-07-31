@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	font-family: 'Press Start 2P', cursive;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+pre,
+code,
+kbd,
+samp,
+p {
+	font-family: 'Press Start 2P', cursive;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.MuiTableCell-root {
+	padding: 0 !important;
+}
