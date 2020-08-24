@@ -7,6 +7,7 @@ const App = () => {
 	const [ appState, setState ] = useState()
 
 	const setAppState = (value) => setState({ ...appState, ...value })
+
 	return (
 		<AppContext.Provider value={{ ...appState, setAppState }}>
 			<Router>
